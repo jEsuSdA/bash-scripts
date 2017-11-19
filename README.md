@@ -15,6 +15,13 @@ By [jEsuSdA](http://www.jesusda.com)
 </dl>
 
 
+## Video
+<dl>
+	<dt><a href="https://github.com/jEsuSdA/bash-scripts/blob/master/vid-deshake.sh">vid-deshake.sh</a></dt>
+	<dd>Script to <strong>stabilize video image</strong>.</dd>
+</dl>
+
+
 # License
 
 All the scripts are publised under the [GNU General Public License V3](https://www.gnu.org/licenses/gpl.html).
