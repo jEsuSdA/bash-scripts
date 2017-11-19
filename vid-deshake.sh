@@ -45,7 +45,7 @@ rm -rf "mytransforms.trf"
 done
 
 # ----------------------------------------------------------
-# Old way with transcode (does not work at alla)
+# Old way with transcode (does not work at all now)
 
 #transcode -J stabilize=shakiness=8=mincontrast=0.04=fieldsize=60 -i "$1"
 #transcode -J transform=crop=1=optzoom=4 --mplayer_probe -i "$1" -y raw -o "$1""-stabilized.avi"
@@ -59,9 +59,5 @@ done
 
 # http://blog.hamoid.com/stabilize-video-in-ubuntu-linux
 # http://mcfrisk.kapsi.fi/linux/video/#index2h2
-
-
-
-rm "$1"".trf"
 
 
