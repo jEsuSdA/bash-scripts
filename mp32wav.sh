@@ -1,5 +1,5 @@
 #!/usr/bin/perl
-# Bash Script for converting ALL the BMP image files to JPG
+# Bash Script for converting MP3 audio files to WAV
 #
 # Requires: mpg321 libmp3-info-per libstring-shellquote-perl  
 
