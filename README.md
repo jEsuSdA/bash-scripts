@@ -6,6 +6,13 @@ By [jEsuSdA](http://www.jesusda.com)
 
 # Scripts
 
+## Audio
+<dl>
+	<dt><a href="https://github.com/jEsuSdA/bash-scripts/blob/master/mp32wav.sh">mp32wav.sh</a></dt>
+	<dd>Script to <strong>convert MP3 audio files to WAV</strong>.</dd>
+</dl>
+
+
 ## Image
 <dl>
 	<dt><a href="https://github.com/jEsuSdA/bash-scripts/blob/master/bing-wallpapers-downloader.sh">bing-wallpapers-downloader.sh</a></dt>
