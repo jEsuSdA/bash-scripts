@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 # Bash Script for converting MP3 audio files to WAV
 #
-# Requires: mpg321 libmp3-info-per libstring-shellquote-perl  
+# Requires: mpg321 libmp3-info-perl libstring-shellquote-perl  
 
 # mp32wav, a modified version of mp32ogg to produce wav files easy.
 # Generated WAV files have large size (+- 10MB per min, +- x10 of mp3 source file).
