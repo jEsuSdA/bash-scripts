@@ -3,7 +3,7 @@
 #
 # Requires: ffmpeg
 #
-# 20171119 - jEsuSdA
+# 20171207 - jEsuSdA
 
 
 # Function to obtain the filename without extension
@@ -28,21 +28,26 @@ function cambiaext {
 
 
 
-# Obtain the namefile
-cambiaext "$1"
+if [ $# -eq 0 ]
+then
+
+	echo "Usage: vid-deshake.sh <video to stabilize>"
+
+else 
+
+	origen="$1"
+	cambiaext "$1"
+	vidout=$namefich"avi"
+
+	ffmpeg -i "$1" -vf vidstabdetect=shakiness=10:accuracy=15:result="mytransforms.trf" -f null -
+
+	ffmpeg -i "$1" -vf unsharp=5:5:0.8:3:3:0.4,vidstabtransform=zoom=5:smoothing=30:input="mytransforms.trf" "$namefich"stabilized.mkv
+
+	rm -rf "mytransforms.trf"
+
+fi
 
 
-
-ffmpeg -i "$1" -vf vidstabdetect=shakiness=10:accuracy=15:result="mytransforms.trf" -f null -
-
-
-
-ffmpeg -i "$1" -vf unsharp=5:5:0.8:3:3:0.4,vidstabtransform=zoom=5:smoothing=30:input="mytransforms.trf" "$namefich"stabilized.mkv
-
-rm -rf "mytransforms.trf"
-
-
-done
 
 # ----------------------------------------------------------
 # Old way with transcode (does not work at all now)
