@@ -26,6 +26,8 @@ By [jEsuSdA](http://www.jesusda.com)
 <dl>
 	<dt><a href="https://github.com/jEsuSdA/bash-scripts/blob/master/vid-deshake.sh">vid-deshake.sh</a></dt>
 	<dd>Script to <strong>stabilize video image</strong>.</dd>
+	<dt><a href="https://github.com/jEsuSdA/bash-scripts/blob/master/vid2cinelerra.sh">vid2cinelerra.sh</a></dt>
+	<dd>Script to create a low compressed video, very convenient to <strong>be used in <a href="https://cinelerra-cv.org/">Cinelerra projects</a></strong>.</dd>	
 </dl>
 
 
