@@ -27,7 +27,11 @@ By [jEsuSdA](http://www.jesusda.com)
 	<dt><a href="https://github.com/jEsuSdA/bash-scripts/blob/master/vid-deshake.sh">vid-deshake.sh</a></dt>
 	<dd>Script to <strong>stabilize video image</strong>.</dd>
 	<dt><a href="https://github.com/jEsuSdA/bash-scripts/blob/master/vid2cinelerra.sh">vid2cinelerra.sh</a></dt>
-	<dd>Script to create a low compressed video, very convenient to <strong>be used in <a href="https://cinelerra-cv.org/">Cinelerra projects</a></strong>.</dd>	
+	<dd>Script to create a low compressed video, very convenient to <strong>be used in <a href="https://cinelerra-cv.org/">Cinelerra projects</a></strong>.</dd>
+	<dt><a href="https://github.com/jEsuSdA/bash-scripts/blob/master/vid2youtube-720p.sh">vid2youtube-720p.sh</a></dt>
+	<dd>Script to create a <strong>MP4+AVC+ACC 1280x720p (HD)</strong> video for be uploaded to online video services like Youtube, Vimeo, etc.</strong>.</dd>
+	<dt><a href="https://github.com/jEsuSdA/bash-scripts/blob/master/vid2youtube-1080p.sh">vid2youtube-1080p.sh</a></dt>
+	<dd>Script to create a <strong>MP4+AVC+ACC 1920x1080p (Full-HD)</strong> video for be uploaded to online video services like Youtube, Vimeo, etc.</strong>.</dd>
 </dl>
 
 
