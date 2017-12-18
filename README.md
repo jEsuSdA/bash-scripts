@@ -35,6 +35,13 @@ By [jEsuSdA](http://www.jesusda.com)
 </dl>
 
 
+
+## Utils
+<dl>
+	<dt><a href="https://github.com/jEsuSdA/bash-scripts/blob/master/find-broken-links.sh">find-broken-links.sh</a></dt>
+	<dd>Script to <strong>find broken symlinks</strong>.</dd>
+</dl>
+
 # License
 
 All the scripts are publised under the [GNU General Public License V3](https://www.gnu.org/licenses/gpl.html).
