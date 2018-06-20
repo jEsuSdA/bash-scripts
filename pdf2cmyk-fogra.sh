@@ -44,7 +44,7 @@ if [ "$colorSpace" = "CMYK" ]; then
 fi
 
 # Create a new pdf terminating in "_cmyk" with the CMYK colorspace
-convert "$1" -profile ./pdf2cmyk-fogra39.icc ${1%%.pdf}_cmyk.pdf 
+convert "$1" -profile ./pdf2cmyk-srgb.icm -profile ./pdf2cmyk-fogra39.icc -intent Perceptual ${1%%.pdf}_cmyk.pdf 
 
 # Create two jpg files
 convert ${1%%.pdf}_cmyk.pdf ${1%%.pdf}_cmyk.jpg
