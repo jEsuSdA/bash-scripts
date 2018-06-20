@@ -19,6 +19,12 @@ By [jEsuSdA](http://www.jesusda.com)
 	<dd>Script to <strong>download latest Bing wallpapers</strong></dd>
 	<dt><a href="https://github.com/jEsuSdA/bash-scripts/blob/master/bmp2jpg.sh">bmp2jpg.sh</a></dt>
 	<dd>Script to convert <em>ALL the <strong>BMP</strong> files into a folder</em> to <strong>JPG</strong> images.</dd>
+	<dt><a href="https://github.com/jEsuSdA/bash-scripts/blob/master/pdf2cmyk.sh">pdf2cmyk.sh</a></dt>
+	<dd>Script to convert <em><strong>PDF</strong> files from RGB</em> to <strong>CMYK</strong>. It was made by Nicola Rainiero. It does not work with all RGB PDF files.</dd>
+	<dt><a href="https://github.com/jEsuSdA/bash-scripts/blob/master/pdf2cmyk-fogra.sh">pdf2cmyk-fogra.sh</a></dt>
+	<dd>Script to convert <em><strong>PDF</strong> files from RGB</em> to <strong>CMYK with Fogra39 color profile</strong>. You need to download the Fogra39 icc file.</dd>	
+	
+	
 </dl>
 
 
